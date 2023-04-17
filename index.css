@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.h1_title{
+  text-align: center;
+  padding-top: 33px;
+  padding-bottom: 20px;
+  color: black;
+}
+
+.input_valor{
+  padding-left: 7px;
+    display: block;
+    margin: 0 auto;
+    height: 39px;
+}
+
+.container__conversor{
+  background-color: antiquewhite;
+  width: 429px;
+  height: 311px;
+  margin: 0 auto;
+  margin-top: 142px;
+}
+
+.select__moedas{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+#moeda-origem{
+  height: 39px;
+  padding-left: 12px;
+}
+
+#moeda-destino{
+  height: 39px;
+  padding-left: 12px;
+}
+
+
+#btn-convert{
+  display: block;
+  margin: 0 auto;
+  height: 35px;
+  width: 155px;
+  background-color: black;
+  color: white;
+  margin-bottom: 20px;
+}
